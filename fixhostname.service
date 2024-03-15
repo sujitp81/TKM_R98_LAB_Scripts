@@ -1,0 +1,12 @@
+[Unit]
+Description=sujitp81@hotmail.com, service to fix hostname
+After=network.target
+
+[Service]
+Type=idle
+Restart=on-failure
+User=root
+ExecStart=/usr/local/bin/TKM_R98_LAB_Scripts/fixhosthame.sh
+
+[Install]
+WantedBy=newrelic-infra.service
