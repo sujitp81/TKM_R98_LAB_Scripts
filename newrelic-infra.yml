@@ -8,4 +8,4 @@ custom_attributes:
 disable_all_plugins: true 
 network_interface_interval_sec: 120
 metrics_storage_sample_rate: 120
-metrics_system_sample_rate: 60
+metrics_system_sample_rate: 30
