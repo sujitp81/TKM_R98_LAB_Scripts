@@ -1,7 +1,6 @@
 enable_process_metrics: true
 status_server_enabled: true
 status_server_port: 18003
-license_key: a9d5b7eda52f0ba4c27424bbf0e29c29FFFFNRAL
 custom_attributes:
   nr_deployed_by: newrelic-cli
 

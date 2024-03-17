@@ -51,6 +51,9 @@ wget https://download.anydesk.com/linux/anydesk_6.3.0-1_amd64.deb
  
 rm /etc/anydesk/service.conf 
 
+sudo nano /etc/systemd/system/anydesk.service
+https://askubuntu.com/questions/1436108/anydesk-start-without-login-22-04
+
 
  
 
