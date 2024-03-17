@@ -7,7 +7,8 @@ import subprocess
 host_name_prefix = "TKM-RTX4090-"
 lookup_map = {"GPU-25ed8ebc-e8ed-b51d-1e2d-133503dff331": "R98",
               "GPU-e1b79a0d-7026-ac02-15ac-ffcb3b20bb00": "R97",
-              "GPU-ca665d53-95e4-f815-8063-4e953284c45b": "M01"}
+              "GPU-ca665d53-95e4-f815-8063-4e953284c45b": "M01",
+              "GPU-58d7bf6b-6e26-8e0c-485f-6802b8f72262": "M02"}}
 
 def fix_hostname():
     result_smi = subprocess.run(['nvidia-smi', '--query-gpu=gpu_uuid', '--format=csv,noheader'], capture_output=True,
