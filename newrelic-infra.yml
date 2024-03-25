@@ -9,3 +9,4 @@ network_interface_interval_sec: 120
 metrics_storage_sample_rate: 120
 metrics_system_sample_rate: 30
 metrics_process_sample_rate: 120
+metrics_network_sample_rate: 60
