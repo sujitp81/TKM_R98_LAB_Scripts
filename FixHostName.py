@@ -11,6 +11,7 @@ lookup_map = {"GPU-25ed8ebc-e8ed-b51d-1e2d-133503dff331": "R98",
               "GPU-ca665d53-95e4-f815-8063-4e953284c45b": "M01",
               "GPU-58d7bf6b-6e26-8e0c-485f-6802b8f72262": "M02",
               "GPU-b968a095-3453-338f-92c9-4b47e220b9a6": "M03",
+              "GPU-9d9358c5-c1b7-7e64-860e-d685a93aedc0": "M04",
               "GPU-99a0c6ec-d199-6ad2-dc23-2ee2ef307c47": "Proto"}
 
 def fix_hostname():
